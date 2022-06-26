@@ -9,6 +9,7 @@ fvt = vt.cursor()
 hata=0
 page = 1
 while page<1505:
+    #bs4 ile aldığım listeleme method da boş karakterleri almıyorum
     i = [1,3,4,5,6,8,9,10,11,12,14,15,16,17,18,19]
     j = 0
     url = requests.get("https://www.beyazperde.com/filmler-tum/?page="+str(page))
